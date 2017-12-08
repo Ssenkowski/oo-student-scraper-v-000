@@ -22,6 +22,7 @@ class Scraper
           student_hash[:name] = name
           student_hash[:location] = location
           student_hash[:profile_url] = profile_url
+            #creating the array
           student_array << student_hash
       end
     end
