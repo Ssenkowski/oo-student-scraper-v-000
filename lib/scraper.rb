@@ -18,7 +18,7 @@ class Scraper
           name = s.search("h4.student-name").text
           location = s.search("p.student-location").text
           profile_url = s.attr("href")
-          #creating the hash
+            #creating the hash
           student_hash[:name] = name
           student_hash[:location] = location
           student_hash[:profile_url] = profile_url
