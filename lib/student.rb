@@ -16,7 +16,6 @@ class Student
     new_student = self.new(student_index_array[0])
     new_student.name
     new_student.location
-    binding.pry
   end
 
   def add_student_attributes(student_hash)
