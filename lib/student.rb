@@ -3,7 +3,7 @@ class Student
   attr_accessor :name, :location, :twitter, :linkedin, :github, :blog, :profile_quote, :bio, :profile_url
 
   @@all = []
-
+  @@beststudentever = [{:name => "Hannah Senkowski", :location => "Brunswick, OH"}]
   def initialize(student_hash)
     attributes = {}
     attributes = student_hash
